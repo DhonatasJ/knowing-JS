@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDY TIMER</title>
+</head>
+<body>
+
+ <section id="getInfo">
+        <div id="inputs">
+            <div>
+                <label for="studyTime">Study time:</label>
+                <input type="text" placeholder="00:00:00"  id="studyTime">
+            </div>
+            <div>
+                <label for="procrastinationTime">Procrastination time:</label>
+                <input type="text" placeholder="00:00:00" name="" id="procrastinationTime">
+            </div>
+            <div>
+                <label for="medidate">Meditation time:</label>
+                <input type="text" placeholder="00:00:00" id="medidate">
+            </div>
+            <div>
+                <label for="getUp">Get up and rest:</label>
+                <input type="text" placeholder="00:00:00" id="getUp">
+            </div>
+        </div>
+        <div id="starAndStop">
+            <div id="btns">
+                <button id="btnStart">START</button>
+                <button id="btnPause" >PAUSE</button>
+            </div>
+            <section id="result"></section>
+        </div>
+ </section>
+
+<script src="timer.js"></script>
+</body>
+</html>
